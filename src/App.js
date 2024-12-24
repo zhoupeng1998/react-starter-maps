@@ -17,15 +17,12 @@ function App() {
 
   // Function to handle "Get Lucky Route" button click
   const handleGetLuckyRouteClick = () => {
-    const newResult = 'Dummy Result';
-    setResult(newResult);
-    localStorage.setItem('result', newResult); // Save to localStorage
+    //
   };
 
   // Function to handle "Cancel" button click
   const handleCancelClick = () => {
-    setResult('');
-    localStorage.removeItem('result'); // Remove from localStorage
+    localStorage.removeItem('encodedPolyline');
   };
 
   return (
