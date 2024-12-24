@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left Sidebar */
+.sidebar {
+  width: 20%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* Right Section */
+.result {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Add specific styles for Cancel button if needed */
+.sidebar button:last-child {
+  background-color: #f8d7da;
+  color: #721c24;
+}
